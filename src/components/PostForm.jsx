@@ -61,9 +61,9 @@ class PostForm extends React.Component {
         return (
             <React.Fragment>
                 <Text fontSize='xl'>
-                    Загаловок Поста
+                    Post Title
                 </Text>
-                <Input value={this.state.title} onChange={this.inputHandler = this.inputHandler.bind(this)} placeholder='Basic usage' />
+                <Input value={this.state.title} onChange={this.inputHandler = this.inputHandler.bind(this)} placeholder='Type Here...' />
                 <Button onClick={this.submitHandler} size='sm' variantColor='green' margin='2rem 0'>
                     Submit
                 </Button>
