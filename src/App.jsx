@@ -13,11 +13,11 @@ function App() {
         <PostForm />
         <Grid templateColumns="50% 50%" gap={6}>
           <Box>
-            <Text fontSize="xl">Синхронные Посты</Text>
+            <Text fontSize="xl">Sync Posts</Text>
             <Posts />
           </Box>
           <Box>
-            <Text fontSize="xl">Асинхронные Посты</Text>
+            <Text fontSize="xl">Async Посты</Text>
             <FetchedPosts />
           </Box>
           
