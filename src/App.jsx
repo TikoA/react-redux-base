@@ -17,7 +17,7 @@ function App() {
             <Posts />
           </Box>
           <Box>
-            <Text fontSize="xl">Async Посты</Text>
+            <Text fontSize="xl">Async Posts</Text>
             <FetchedPosts />
           </Box>
           
